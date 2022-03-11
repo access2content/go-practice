@@ -1,0 +1,13 @@
+{
+    "secretKey": "74c750eb01a1a77dcac38f0ebb9b80d4f240374d13d6ca4397b99463a03e9636",
+    "method": "POST",
+    "URL": "/api/v1/admin/broker",
+    "body": {
+        "firstName": "Vivek",
+        "lastName": "Agrawal",
+        "email": "access2content@gmail.com",
+        "username": "access2vivek",
+        "phone": "9999999999",
+        "address": "Mohali, India"
+    }
+}
