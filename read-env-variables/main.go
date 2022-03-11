@@ -3,16 +3,15 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/access2content/go-practice/read-env-variables/util"
+	_ "github.com/joho/godotenv/autoload"
 )
 
 func main() {
-	path := os.Getenv("GOPATH")
-	fmt.Println(path)
-
 	port := os.Getenv("HTTP_PORT")
-	if port == "" {
-		port = "6969"
-	}
+	fmt.Println("Port = ", port)
 
-	fmt.Println(port)
+	value := util.GetVal()
+	fmt.Println("Value = ", value)
 }
